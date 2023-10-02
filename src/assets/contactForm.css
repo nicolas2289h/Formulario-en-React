@@ -1,0 +1,30 @@
+.form {
+    width: 90%;
+    max-width: 390px;
+    background-color: rgb(81, 81, 81);
+    color: #fff;
+    margin: 0 auto;
+    border: 1px solid rgb(97, 205, 50);
+}
+
+.alert{
+    padding-left: 5px !important;
+    margin-bottom: 0;
+}
+
+.form input, textarea{
+    border: 1px solid rgb(97, 205, 50) !important;
+}
+
+.form input:focus, textarea:focus{
+    box-shadow: 0 0 5px rgb(97, 205, 50) !important;
+}
+
+.form button{
+    background-color: rgb(97, 205, 50);
+    text-shadow: 0 0 3px #fff;
+}
+
+textarea{
+    resize: none;
+}
